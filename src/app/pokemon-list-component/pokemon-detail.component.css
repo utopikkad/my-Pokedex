@@ -1,0 +1,31 @@
+h1{
+    text-align:center;
+    font-weight:bold;
+    font-size: 2em;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details-container{
+    justify-content:center;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%!important;
+}
+ul{
+   text-align:center;
+   font-size: 1.2em;
+   font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    justify-content:center;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+   text-align:center;
+   font-size: 1.2em;
+   font-family: Arial, Helvetica, sans-serif;
+}

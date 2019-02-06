@@ -1,0 +1,14 @@
+<p>
+  Welcome to my POKEDEX
+</p>
+<h1 *ngIf="!pokemon">Loading...</h1>
+
+<div class="flex-container">
+  <ul *ngFor="let item of pokemon">
+    <a [routerLink]="['/details', item.id]">
+      <img src="{{ item.image() }}">
+      <span class="id">{{ item.formattedId() }}</span><br>
+      <span>{{ item.formattedName() }}</span>
+    </a>
+  </ul>
+</div>
